@@ -1,18 +1,14 @@
 "use client"
 import React from 'react'
 import Image from 'next/image';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import { ToastContainer } from 'react-toastify';
 import { TypeAnimation } from 'react-type-animation';
-// import { handleCopyToClipboard } from '@utils'
+
+import { handleCopyToClipboard } from '../utils'
 
 
 const HeroSection = () => {
-    const handleCopyToClipboard = () => {
-        toast('copied', { hideProgressBar: true, autoClose: 2000, type: 'success' ,position:'bottom-right' })
 
-    };
     return (
         <div className='sm:px-14 px-6 bg-[#192333] justify-between sm:flex w-full min-h-screen'>
             <section className='max-w-[900px] sm:py-[200px] pt-[90px]'> {/* Might change widths later */}

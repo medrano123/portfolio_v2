@@ -12,8 +12,8 @@ const NavBar = () => {
 	const [toggle, setToggle] = useState(false);
 
     return (
-    	<nav className='sm:px-14 px-6 w-full flex items-centered py-5 fixed top-0 z-20 bg-[#192333]'>
-			<div className='flex w-full justify-between items-center mx-auto'>
+    	<nav className='sm:px-14 px-6 w-full flex items-centered py-5 fixed top-0 z-20 bg-[#192333] border-indigo-500'> {/*add border fix this */}
+			<div className='flex w-full justify-between items-center mx-auto '>
                 <Link
                     href='/'
                     className="flex items-center gap-2"

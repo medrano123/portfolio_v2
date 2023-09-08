@@ -1,5 +1,5 @@
 
-import { NavBar, HeroSection, Skills } from "@/components"
+import { NavBar, HeroSection, Skills, Education } from "@/components"
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
 			<NavBar />
 			<HeroSection />
 			<Skills />
+			<Education />
 		</main>
 	)
 }
