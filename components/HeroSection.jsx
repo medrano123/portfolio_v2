@@ -19,9 +19,9 @@ const HeroSection = () => {
                     <TypeAnimation 
 						style={{color: '#428DFF'}}
 						sequence={[
-							'Full Stack Developer',
+							'Front End Engineer',
 							1500,
-							'UI/UX Designer',
+							'Back End Engineer',
 							1500,
 							'Mathematician',
 							1500,

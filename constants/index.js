@@ -102,7 +102,7 @@ export const education = [
 		name:'The University of Texas at Austin',
 		major: 'BS Mathematics',
 		year:'2021',
-		icon: ut,
+		icon: '/assets/ut.png',
 		points: [
 			"Mathematical Modeling in Science and Engineering",
 			"Mathematical Statistics",
@@ -117,7 +117,7 @@ export const education = [
 		name:'The University of Texas at Austin',
 		major: 'Minor Computer Science',
 		year:'2021',
-		icon: ut,
+		icon: '/assets/ut.png',
 		points: [
 			"Web Development",
 			"Software Engineering",
@@ -130,7 +130,7 @@ export const education = [
 	},
 	{
 		name:'Texas',
-		major: 'Javascript Experience Masterclass',
+		major: 'Javascript Mastery',
 		year:'2023',
 		icon: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://file-uploads.teachablecdn.com/6a04843730254526a1c15d3b88b6cae1/be6610c8fbf341729201abce9af92c9b",
 		points: [
