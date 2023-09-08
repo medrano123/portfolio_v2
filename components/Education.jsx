@@ -10,6 +10,7 @@ import {
   import { textVariant } from "../utils/motion/motion.js";
 
   import { education } from '../constants'
+  import SectionWrapper from '@/hoc/SectionWrapper'
 
 
 const EducationCard = ({ education }) => {
@@ -81,4 +82,4 @@ const Education = () => {
   	)
 }
 
-export default Education
+export default SectionWrapper(Education, 'education')

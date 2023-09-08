@@ -1,7 +1,9 @@
+"use client"
 import React from 'react'
 
 import { skills } from '../constants'
 import { SkillsBubble } from '.'
+import SectionWrapper from '@/hoc/SectionWrapper'
 
 const Skills = () => {
     return (
@@ -9,7 +11,7 @@ const Skills = () => {
             <div className='text-[#428DFF] font-black lg:text-[50px] sm:text-[35px] text-[40px] pt-[40px]'>
                 My Skills
             </div>
-            <div className='flex flex-wrap justify-center gap-4 max-w-6xl sm:py-24 py-10'>
+            <div className='flex flex-wrap justify-center gap-6 max-w-6xl sm:py-24 py-8'>
                 {skills.map((skill, index ) => (
                     <SkillsBubble skill={skill} />
                 ))}
@@ -18,4 +20,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default SectionWrapper(Skills, 'skills')

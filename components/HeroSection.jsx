@@ -10,7 +10,7 @@ import { handleCopyToClipboard } from '../utils'
 const HeroSection = () => {
 
     return (
-        <div className='sm:px-14 px-6 bg-[#192333] justify-between sm:flex w-full min-h-screen'>
+        <div className='sm:px-14 px-6 bg-[#192333] justify-between sm:flex w-full min-h-screen' id="herosection">
             <section className='max-w-[900px] sm:py-[200px] pt-[90px]'> {/* Might change widths later */}
                 <div className='text-secondary font-medium lg:text-[26px] sm:text-[22px] text-[22px] lg:leading-[40px]'>
                     Hello, I'm <span className='text-[#428DFF]'>Giovanni</span>
