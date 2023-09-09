@@ -68,7 +68,7 @@ const HeroSection = () => {
                 </section>
             </section>
             {/* Computer Man */}
-            <section className='sm:py-[100px] py-10'>
+            <section className='sm:py-[120px] py-10'>
                 <Image
                     src='/assets/computerman.png'
                     width={750}
