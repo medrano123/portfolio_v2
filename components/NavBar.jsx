@@ -45,7 +45,7 @@ const NavBar = () => {
                             } hover:text-white text-[18px] font-medium cursor-pointer`}
                             onClick={() => setActive(link.title)}
                         >
-                            <a href={`#${link.id}`}>
+                            <a href={`/#${link.id}`}>
                                 {link.title}
                             </a>
                         </li>
@@ -76,7 +76,7 @@ const NavBar = () => {
 										setToggle(!toggle)
 									}}
 								>
-									<a href={`#${link.id}`}>
+									<a href={`/#${link.id}`}>
 										{link.title}
 									</a>
 								</li>
