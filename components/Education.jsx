@@ -72,7 +72,7 @@ const Education = () => {
 				</div>
 
 			</motion.div> 
-			<div className='flex flex-col pb-8'>
+			<div className='flex flex-col pb-20'>
 				<VerticalTimeline
 					className='before:w-24'
 					// lineColor='#c95325'

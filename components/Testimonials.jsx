@@ -40,7 +40,7 @@ const FeedbackCard = ({ testimonial, name, image, company, index, designation })
 const Testimonials = () => {
     return (
       <motion.div 
-          className="sm:px-16 px-6 py-16 bg-[#192333]" 
+          className="sm:px-16 px-6 py-20 bg-[#192333]" 
       >
           <div className='sm:px-16 px-6 sm:py-16 py-10 bg-[#151E2C] rounded-2xl sm:min-h-[300px] min-h-[230px]'>
               <motion.div variants={textVariant(0.2)}> 
