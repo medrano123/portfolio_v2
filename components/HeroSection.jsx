@@ -11,9 +11,9 @@ const HeroSection = () => {
 
     return (
         <div className='sm:px-14 px-6 bg-[#192333] justify-between sm:flex w-full min-h-screen' id="herosection">
-            <section className='max-w-[900px] sm:py-[200px] pt-[90px]'> {/* Might change widths later */}
+            <section className='max-w-[900px] sm:py-[200px] pt-[90px]'> 
                 <div className='text-secondary font-medium lg:text-[26px] sm:text-[22px] text-[22px] lg:leading-[40px]'>
-                    Hello, I'm <span className='text-[#428DFF]'>Giovanni</span>
+                    Hello, I'm <span className='text-white'>Giovanni</span> {/* work on color */}
                 </div>
                 <div className='font-black text-white lg:text-[50px] sm:text-[35px] text-[40px]'> {/* look at it in bigger sizes and think of how to change the size to match */}
                     <TypeAnimation 
@@ -39,7 +39,7 @@ const HeroSection = () => {
                     and a profound commitment to excellence
                 </div>
 
-                <section className='sm:flex mt-[24px] sm:max-w-[511px] font-medium items-center justify-center gap-10'>
+                <section className='sm:flex mt-[24px] sm:max-w-[511px] font-medium items-center justify-center gap-6'>
                     <div className='bg-[#428DFF] sm:mt-0 mt-8 rounded-full py-4 px-8 flex justify-center'>
                         Resume
                         <a href='/assets/GiovanniMedranoResume.pdf' download>                            

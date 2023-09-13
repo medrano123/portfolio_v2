@@ -1,16 +1,13 @@
 "use client"
 
 import React from 'react'
-import {
-    VerticalTimeline,
-    VerticalTimelineElement,
-  } from "react-vertical-timeline-component";
-  import { motion } from "framer-motion";
-  import "react-vertical-timeline-component/style.min.css";
-  import { textVariant } from "../utils/motion/motion.js";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import { motion } from "framer-motion";
+import "react-vertical-timeline-component/style.min.css";
 
-  import { education } from '../constants'
-  import SectionWrapper from '@/hoc/SectionWrapper'
+import { textVariant } from "../utils/motion/motion.js";
+import { education } from '../constants'
+import SectionWrapper from '@/hoc/SectionWrapper'
 
 
 const EducationCard = ({ education }) => {
@@ -55,29 +52,29 @@ const EducationCard = ({ education }) => {
 			</ul>
 	  	</VerticalTimelineElement>
 	);
-  };
+};
+
 const Education = () => {
   	return (
         <div className='sm:px-14 px-6 bg-[#192333] justify-between w-full min-h-screen pt-20' id="education">
 			<motion.div variants={textVariant()}>
-				<p className={`sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider`}>
+				<p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
 					What I have learned so far
 				</p>
-				<h2 className={`font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-[#428DFF]`}>
+				<h2 className='font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-[#428DFF]'>
 					Education
 				</h2>
 			</motion.div> 
-
-			<div className=' flex flex-col'>
-			<VerticalTimeline>
-				{education.map((education, index) => (
-					<EducationCard
-					key={`education-${index}`}
-					education={education}
-					/>
-				))}
-			</VerticalTimeline>
-		</div>
+			<div className='flex flex-col pb-8'>
+				<VerticalTimeline>
+					{education.map((education, index) => (
+						<EducationCard
+						key={`education-${index}`}
+						education={education}
+						/>
+					))}
+				</VerticalTimeline>
+			</div>
 		</div>
   	)
 }

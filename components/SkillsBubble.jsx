@@ -11,7 +11,7 @@ const SkillsBubble = ({ skill }) => {
                 width={50}
                 height={50}
                 alt="logo"
-                className='object-contain'
+                className='object-contain grayscale-[100%] hover:grayscale-0'
             />
         </div>
     );

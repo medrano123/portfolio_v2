@@ -35,7 +35,7 @@ const JobItCard = () => {
                             Node.js, RapidAPI
                         </p>
                     </div>
-                    <Link href='/casestudy/morerent'>
+                    <Link href='/casestudy/jobit'>
                         <div className='flex mt-6 gap-2'>
                             <p>
                                 See Project Details

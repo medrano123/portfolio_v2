@@ -36,7 +36,7 @@ export const skills = [
     },
     {
       name: 'Next Js',
-      icon: '/assets/skills/next.png',
+      icon: '/assets/skills/nextblack.png',
     },
     {
         name: "Sql",
@@ -64,7 +64,7 @@ export const skills = [
     },
     {
       name: "Node JS",
-      icon: '/assets/skills/nodejs.png',
+      icon: '/assets/skills/node.png',
     },
     {
       name: "MongoDB",
@@ -93,6 +93,10 @@ export const skills = [
     {
         name: "motion",
         icon: '/assets/skills/motion.png'
+    },
+    {
+        name: "express",
+        icon: '/assets/skills/ex.png'
     }
 
 ];
@@ -414,3 +418,31 @@ export const projects = [
       deployed_link: 'https://e-commerce-tau-murex.vercel.app/'
     },
 ];
+
+export const testimonials = [
+    {
+      testimonial:
+        "Seeing Giovanni's work ethic and ability to grow as a developer over time has been inspiring for my own development!",
+      name: "Kenny Tang",
+      designation: "Software Engineer",
+      company: "Nvidia",
+      image: "/assets/testimonials/kenny.jpeg",
+    },
+    {
+      testimonial:
+        "Giovanni has demonstrated his ambition and ability to create stunning websites",
+      name: "Benjamin Huy Pham",
+      designation: "Software Developer",
+      company: "Infosys",
+      image: "/assets/testimonials/ben.jpeg",
+    },
+    {
+      testimonial:
+        "Giovanni's coding prowess is remarkable; he consistently delivers elegant solutions to complex problems, making him an invaluable asset to any software development team.",
+      name: "Christopher Soltis ",
+      designation: "Software Engineer",
+      company: "Brave Freight",
+      image: "/assets/testimonials/christopher.jpeg",
+    },
+  ];
+  

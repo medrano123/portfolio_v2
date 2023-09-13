@@ -20,6 +20,9 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      screens: {
+        xs: "350px",
+      },
     },
   },
   plugins: [],

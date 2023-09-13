@@ -1,8 +1,11 @@
+"use client"
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 import { MoreRentCard, JobItCard } from './casestudies';
+import SectionWrapper from '@/hoc/SectionWrapper'
 
 const Projects = () => {
     return (
@@ -16,6 +19,4 @@ const Projects = () => {
     );
 }
 
-export default Projects;
-
-
+export default SectionWrapper(Projects, 'projects')
