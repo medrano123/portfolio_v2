@@ -8,10 +8,6 @@ import { testimonials } from "../constants";
 
 const FeedbackCard = ({ testimonial, name, image, company, index, designation }) => (
     <motion.div
-        // Set the initial and animate states.
-        initial="hidden"
-        animate="show"
-        // Utilize the fadeIn function with proper parameters.
         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
         className="bg-[#192333] p-10 rounded-3xl xs:w-[398px] w-full"
     >
@@ -43,23 +39,25 @@ const FeedbackCard = ({ testimonial, name, image, company, index, designation })
 
 const Testimonials = () => {
     return (
-      // Wrap the parent in a motion.div and provide the initial and animate props
       <motion.div 
-          className="sm:px-16 px-6 py-12 bg-[#192333]" 
-          initial="hidden" 
-          animate="show"
+          className="sm:px-16 px-6 py-16 bg-[#192333]" 
       >
-          <div className='sm:px-16 px-6 sm:py-16 py-10 bg-[#151E2C] rounded-2xl min-h-[300px]'>
+          <div className='sm:px-16 px-6 sm:py-16 py-10 bg-[#151E2C] rounded-2xl sm:min-h-[300px] min-h-[230px]'>
               <motion.div variants={textVariant(0.2)}> 
-                  <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
-                      What others say
-                  </p>
-                  <h2 className='font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-[#428DFF]'>
-                      Testimonials.
-                  </h2>
+                    <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
+                        What others say
+                    </p>
+                    
+                    <div className="flex flex-col items-start"> {/* Enclosing div */}
+                        <h2 className='font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] z-10'>
+                            Testimonials.
+                            <div className='h-3 bg-[#ffbe62] w-full sm:-mt-8 -mt-4 z-0' />
+
+                        </h2>
+                    </div>
               </motion.div>
           </div>
-          <div className='sm:px-16 px-6 -mt-20 pb-14 flex flex-wrap gap-7 bg-[#151E2C]'>
+          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 flex flex-wrap gap-7 bg-[#151E2C] rounded-2xl'>
               {testimonials.map((testimonial, index) => (
                   <FeedbackCard
                       key={testimonial.name}

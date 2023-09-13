@@ -13,6 +13,7 @@ import SectionWrapper from '@/hoc/SectionWrapper'
 const EducationCard = ({ education }) => {
 	return (
 	  	<VerticalTimelineElement
+			
 			contentStyle={{
 				background: "#151E2C",
 				color: "#fff",
@@ -56,21 +57,30 @@ const EducationCard = ({ education }) => {
 
 const Education = () => {
   	return (
-        <div className='sm:px-14 px-6 bg-[#192333] justify-between w-full min-h-screen pt-20' id="education">
+        <div className='sm:px-14 px-6 bg-[#192333] w-full min-h-screen sm:pt-16 pt-10' id="education">
 			<motion.div variants={textVariant()}>
-				<p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
-					What I have learned so far
-				</p>
-				<h2 className='font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-[#428DFF]'>
-					Education
-				</h2>
+            	<div className="flex flex-col items-center justify-center">
+					<p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
+						What I have learned so far
+					</p>
+					<div className='sm:pb-8 pb-2'>
+						<h2 className='font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] z-10'>
+							Education
+						</h2>
+						<div className='h-3 bg-[#ffbe62] w-full sm:-mt-8 -mt-5 z-0' />
+					</div>
+				</div>
+
 			</motion.div> 
 			<div className='flex flex-col pb-8'>
-				<VerticalTimeline>
+				<VerticalTimeline
+					className='before:w-24'
+					// lineColor='#c95325'
+				>
 					{education.map((education, index) => (
 						<EducationCard
-						key={`education-${index}`}
-						education={education}
+							key={`education-${index}`}
+							education={education}
 						/>
 					))}
 				</VerticalTimeline>
