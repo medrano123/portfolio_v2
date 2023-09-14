@@ -19,7 +19,7 @@ const Skills = () => {
                 </div>
             </motion.div>
 
-            <div className='flex flex-wrap justify-center gap-6 max-w-6xl sm:pb-24 sm:pt-14 py-8'>
+            <div className='flex flex-wrap justify-center gap-6 max-w-6xl sm:pb-24 sm:pt-14 py-10'>
                 {skills.map((skill, index ) => (
                     <motion.div
                         // Utilize the fadeIn function with proper parameters.
