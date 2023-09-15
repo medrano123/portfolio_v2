@@ -1,6 +1,6 @@
 
 import { NavBar }  from "@/components"
-import { MoreRentHero, MyRole } from "@/components/casestudies"
+import { MoreRentHero, MyRole, TechStack } from "@/components/casestudies"
 
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
 			<NavBar />
 			<MoreRentHero />
 			<MyRole />
+			<TechStack />
 		</main>
 	)
 }
