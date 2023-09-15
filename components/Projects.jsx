@@ -10,9 +10,9 @@ import SectionWrapper from '@/hoc/SectionWrapper'
 
 const Projects = () => {
     return (
-        <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col pb-24' id="projects">
+        <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col sm:pb-24 pb-14' id="projects">
             <motion.div variants={textVariant(0.2)}> 
-                <div className='flex font-black lg:text-[50px] sm:text-[35px] text-[30px] sm:pt-[50px] pt-[40px]'>
+                <div className='flex font-black lg:text-[50px] sm:text-[35px] text-[30px] sm:pt-[50px] pt-[40px] max-w-screen-xxxl'>
                     <div className='sm:mr-4 mr-2'>
                         Featured
                     </div>
@@ -26,13 +26,13 @@ const Projects = () => {
             </motion.div>   
             <motion.div
                 variants={fadeIn("up", "spring", 1 * 0.5, 0.75)}
-                className="w-full"
+                className="w-full max-w-screen-xxxl"
             >
                 <MoreRentCard />
             </motion.div>
             <motion.div
                 variants={fadeIn("up", "spring", 2 * 0.5, 0.75)}
-                className="w-full"
+                className="w-full max-w-screen-xxxl"
             >
                 <JobItCard />  
             </motion.div>

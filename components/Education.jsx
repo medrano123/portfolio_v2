@@ -57,7 +57,7 @@ const EducationCard = ({ education }) => {
 
 const Education = () => {
   	return (
-        <div className='sm:px-14 px-6 bg-[#192333] w-full min-h-screen sm:pt-16 pt-10' id="education">
+        <div className='sm:px-14 px-6 bg-[#192333] w-full min-h-screen xxxl:min-h-fit sm:pt-16 pt-10' id="education">
 			<motion.div variants={textVariant()}>
             	<div className="flex flex-col items-center justify-center">
 					<p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
@@ -72,7 +72,7 @@ const Education = () => {
 				</div>
 
 			</motion.div> 
-			<div className='flex flex-col pb-20 sm:pt-0 pt-4'>
+			<div className='flex flex-col sm:pb-20 pb-14 sm:pt-0 pt-4'>
 				<VerticalTimeline
 					className='before:w-24'
 					// lineColor='#c95325'

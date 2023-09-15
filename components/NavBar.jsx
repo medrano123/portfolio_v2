@@ -13,26 +13,29 @@ const NavBar = () => {
 
     return (
     	<nav className='sm:px-14 px-6 w-full flex items-centered py-5 fixed top-0 z-20 bg-[#192333] border-indigo-500'> {/*add border fix this */}
-			<div className='flex w-full justify-between items-center mx-auto '>
+			<div className='flex w-full justify-between items-center mx-auto h-[60px] max-w-screen-xxxl'>
                 <Link
                     href='/'
                     className="flex items-center gap-2"
                     onClick={() => {
                         setActive("");
                         window.scrollTo({
-  top: 100,
-  left: 100,
-  behavior: "smooth",
-});
+                        top: 100,
+                        left: 100,
+                        behavior: "smooth",
+                        });
                     }}
                 >
-                    <Image 
+                    {/* <Image 
                         src='/assets/glogo.png'
                         width={45} //make smaller in smaller devices i could use more divs but lets look for a better solution
                         height={45}
                         alt="logo"
                         className='object-contain md:w-16 md:h-16'
-                    />
+                    /> */}
+                    <div className='initial_background w-[45px] h-[45px] flex items-center justify-center text-[22px] rounded-full logo-font object-contain'>
+                        G
+                    </div>
                 </Link>
                 <ul className='list-none hidden md:flex flex-row gap-10 justify-end items-end'>
                     {navLinks.map((link) => (

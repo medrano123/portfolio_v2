@@ -9,12 +9,12 @@ import { testimonials } from "../constants";
 const FeedbackCard = ({ testimonial, name, image, company, index, designation }) => (
     <motion.div
         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-        className="bg-[#192333] p-10 rounded-3xl xs:w-[398px] w-full"
+        className="bg-[#192333] p-10 rounded-3xl xxxxl:w-[850px] xxl:w-[480px] lg:w-[398px] xs:w-[320px] w-full"
     >
         <p className='text-white font-black text-[48px]'>"</p>
 
         <div className="mt-1">
-            <p className="text-white tracking-wider text-[21px]">
+            <p className="text-white tracking-wider text-[24px] xxxl:text-[31px]">
                 {testimonial}
             </p>
             <div className="mt-7 flex justify-between items-center gap-1">
@@ -40,7 +40,7 @@ const FeedbackCard = ({ testimonial, name, image, company, index, designation })
 const Testimonials = () => {
     return (
       <motion.div 
-          className="sm:px-16 px-6 py-20 bg-[#192333]" 
+          className="sm:px-16 px-6 sm:py-20 py-14 bg-[#192333]" 
       >
           <div className='sm:px-16 px-6 sm:py-16 py-10 bg-[#151E2C] rounded-2xl sm:min-h-[300px] min-h-[230px]'>
               <motion.div variants={textVariant(0.2)}> 
@@ -57,7 +57,7 @@ const Testimonials = () => {
                     </div>
               </motion.div>
           </div>
-          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 flex flex-wrap gap-7 bg-[#151E2C] rounded-2xl'>
+          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 flex flex-wrap gap-7 bg-[#151E2C] rounded-2xl justify-between'>
               {testimonials.map((testimonial, index) => (
                   <FeedbackCard
                       key={testimonial.name}
