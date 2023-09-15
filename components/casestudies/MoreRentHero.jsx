@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const MoreRentHero = () => {
     return (
-        <div className='sm:px-14 px-6 bg-[#192333] w-full min-h-screen' id="herosection">
+        <div className='sm:px-14 px-6 bg-[#192333] w-full sm:min-h-screen' id="herosection">
             <section className='sm:pt-[150px] pt-[110px] flex items-center justify-center flex-col'> 
                 <p className='text-[#428DFF] webdev sm:py-0 py-10'>
                     Web Dev Project

@@ -37,7 +37,7 @@ const JobItCard = () => {
                     </div>
                     <Link href='/casestudy/jobit'>
                         <div className='flex mt-6 gap-2'>
-                            <p>
+                            <p className='hover:underline'>
                                 See Project Details
                             </p>
                             <HiArrowLongRight size={25} />
