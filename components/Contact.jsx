@@ -76,7 +76,7 @@ const Contact = () => {
                     
                     <h2 className='font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'>
                         Contact.
-                    <div className='h-3 bg-[#ffbe62] w-full sm:-mt-7 -mt-4 z-0' />
+                    <div className='h-3 bg-[#ffbe62] w-full sm:-mt-7 -mt-5 z-0' />
                     </h2>
 
                 </div>

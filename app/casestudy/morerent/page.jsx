@@ -1,6 +1,6 @@
 
 import { NavBar }  from "@/components"
-import { MoreRentHero } from "@/components/casestudies"
+import { MoreRentHero, MyRole } from "@/components/casestudies"
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
 		<main>
 			<NavBar />
 			<MoreRentHero />
+			<MyRole />
 		</main>
 	)
 }
