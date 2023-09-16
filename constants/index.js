@@ -71,35 +71,95 @@ export const skills = [
       icon: '/assets/skills/mongodb.png',
     },
     {
-      name: "git",
+      name: "Git",
       icon: '/assets/skills/github.png',
     },
 	{
-		name: "python",
+		name: "Python",
         icon: '/assets/skills/python.png',
 	},
 	{
-		name: "sanity",
-        icon: '/assets/skills/sanity.webp',
+		name: "Sanity",
+    icon: '/assets/skills/sanity.webp',
 	},
 	{
-		name: "sass",
-        icon: '/assets/skills/sass.png',
+		name: "Sass",
+    icon: '/assets/skills/sass.png',
 	},
     {
-        name: "mui",
-        icon: '/assets/skills/mui.png'
+      name: "Mui",
+      icon: '/assets/skills/mui.png'
     },
     {
-        name: "motion",
-        icon: '/assets/skills/motion.png'
+      name: "Motion",
+      icon: '/assets/skills/motion.png'
     },
     {
-        name: "express",
-        icon: '/assets/skills/ex.png'
+      name: "Express",
+      icon: '/assets/skills/ex.png'
     }
 
 ];
+
+export const moreRentStack = [
+  {
+    name: "JavaScript",
+    icon: '/assets/skills/javascript.png',
+  },
+  {
+    name: "TypeScript",
+    icon: '/assets/skills/typescript.png',
+  },
+  {
+    name: "React JS",
+    icon: '/assets/skills/reactjs.png',
+  },
+  {
+    name: 'Next Js',
+    icon: '/assets/skills/nextblack.png',
+  },
+  {
+    name: "HTML 5",
+    icon: '/assets/skills/html.png',
+  },
+  {
+    name: "CSS 3",
+    icon: '/assets/skills/css.png',
+  },
+  {
+    name: "Redux Toolkit",
+    icon: '/assets/skills/redux.png',
+  },
+  {
+    name: "Tailwind CSS",
+    icon: '/assets/skills/tailwind.png',
+  },
+  {
+    name: "Node JS",
+    icon: '/assets/skills/node.png',
+  },
+  {
+    name: "MongoDB",
+    icon: '/assets/skills/mongodb.png',
+  },
+  {
+    name: "GitHub",
+    icon: '/assets/skills/github.png',
+  },
+  {
+    name: "Git",
+    icon: '/assets/skills/git.png',
+  },
+  {
+      name: "Express",
+      icon: '/assets/skills/ex.png'
+  },
+  {
+    name: "Express",
+    icon: '/assets/skills/ex.png'
+}
+
+]
 
 export const education = [
 	{
