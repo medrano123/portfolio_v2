@@ -314,3 +314,19 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+.HFD {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.WOWText {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}

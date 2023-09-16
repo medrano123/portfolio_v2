@@ -162,7 +162,29 @@ export const moreRentStack = [
   name: "Stripe",
   icon: '/assets/skills/stripe.png'
 }
+]
 
+export const wow = [ 
+  {
+    name: "Definition",
+    icon: '/assets/morerent/definition.png'
+  },
+  {
+    name: "Design",
+    icon: '/assets/morerent/design.png'
+  },
+  {
+    name: "Planning",
+    icon: '/assets/morerent/planning.png'
+  },
+  {
+    name: "Development",
+    icon: '/assets/morerent/development.png'
+  },
+  {
+    name: "Deployment",
+    icon: '/assets/morerent/deployment.png'
+  }
 ]
 
 export const education = [

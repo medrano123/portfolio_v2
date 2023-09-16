@@ -2,7 +2,7 @@ import React from 'react'
 
 const MoreRentDescription = () => {
     return (
-        <div className='sm:px-52 px-6 bg-[#192333] w-full xxxl:min-h-fit sm:py-16 py-10 flex flex-col items-center justify-center' id="education">
+        <div className='sm:px-52 px-6 bg-[#192333] w-full xxxl:min-h-fit sm:py-16 py-10 flex flex-col items-center justify-center'>
             <div className='caseStudyDescription py-6 max-w-6xl'>
                 Morent, a cutting-edge car rental application that was developed using the MERN stack. The app boasts a dynamic homepage that showcases featured vehicles, along with convenient pickup & drop-off location options & a comprehensive list of available cars. 
             </div>

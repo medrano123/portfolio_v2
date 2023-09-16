@@ -1,6 +1,6 @@
 
 import { NavBar }  from "@/components"
-import { MoreRentHero, MoreRentMyRole, MoreRentTechStack, MoreRentDescription, MoreRentProblemStatement } from "@/components/casestudies"
+import { MoreRentHero, MoreRentMyRole, MoreRentTechStack, MoreRentDescription, MoreRentProblemStatement, MoreRentFigmaDesign, MoreRentWIW } from "@/components/casestudies"
 
 
 export default function Home() {
@@ -12,6 +12,8 @@ export default function Home() {
 			<MoreRentTechStack />
 			<MoreRentDescription />
 			<MoreRentProblemStatement />
+			<MoreRentFigmaDesign />
+			<MoreRentWIW />
 		</main>
 	)
 }
