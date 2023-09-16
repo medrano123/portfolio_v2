@@ -1,8 +1,8 @@
 import React from 'react'
 
-const MyRole = () => {
+const MoreRentMyRole = () => {
     return (
-        <div className='sm:px-14 px-6 bg-[#151E2C] justify-between items-center md:flex py-10'>
+        <div className='sm:px-52 px-6 bg-[#151E2C] justify-between items-center md:flex py-10'>
             <div className='sm:py-0 py-4'>
                 <p className='myrole_sub text-[#778295]'>
                     My Role
@@ -32,4 +32,4 @@ const MyRole = () => {
     )
 }
 
-export default MyRole
+export default MoreRentMyRole

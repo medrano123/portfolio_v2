@@ -305,3 +305,12 @@
   letter-spacing: -0.005em;
   text-align: left;
 }
+
+.caseStudyDescription {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}

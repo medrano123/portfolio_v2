@@ -155,8 +155,12 @@ export const moreRentStack = [
       icon: '/assets/skills/ex.png'
   },
   {
-    name: "Express",
-    icon: '/assets/skills/ex.png'
+    name: "Cloudinary",
+    icon: '/assets/skills/cloudinary.png'
+},
+{
+  name: "Stripe",
+  icon: '/assets/skills/stripe.png'
 }
 
 ]
