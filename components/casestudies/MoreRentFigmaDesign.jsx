@@ -8,7 +8,7 @@ const MoreRentFigmaDesign = () => {
                 High-Fidelity Figma Design
             </div>
             <Image
-                src='/assets/morerent/HFD.png'
+                src='/assets/morerent/hfd.png'
                 width={575}
                 height={330}
                 alt='car'
