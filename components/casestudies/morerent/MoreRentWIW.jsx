@@ -8,12 +8,14 @@ const MoreRentWIW = () => {
     return (
         <>
             <div className='sm:px-52 px-6 bg-[#151E2C] w-full xxxl:min-h-fit sm:pt-16 pt-10'>
-                <div className='pb-6'>
-                    <div className='text-[#428DFF] techstack_sub pb-6'>
-                        Way of Work
-                    </div>
-                    <div className='techstack_head'>
-                        My Process
+                <div className='max-w-screen-xxxl xxxl:mx-auto'>
+                    <div className='pb-6'>
+                        <div className='text-[#428DFF] techstack_sub pb-6 xxxl:text-[45px] xxxxl:text-[55px] xxxl:mt-10'>
+                            Way of Work
+                        </div>
+                        <div className='techstack_head xxxl:text-[40px] xxxxl:text-[50px] xxxl:mt-10'>
+                            My Process
+                        </div>
                     </div>
                 </div>
             </div>
@@ -27,15 +29,17 @@ const MoreRentWIW = () => {
                 </div>
             </div>
             <div className='sm:px-52 px-6 bg-[#151E2C] w-full xxxl:min-h-fit pb-16'>
-                <div className='pb-6'>
-                    <div className='text-[#428DFF] techstack_sub pb-6'>
-                        Problem
-                    </div>
-                    <div className='techstack_head'>
-                        Challenges & Learnings
+                <div className='max-w-screen-xxxl xxxl:mx-auto'>
+                    <div className='pb-6'>
+                        <div className='text-[#428DFF] techstack_sub pb-6 xxxl:text-[45px] xxxxl:text-[55px]'>
+                            Problem
+                        </div>
+                        <div className='techstack_head xxxl:text-[40px] xxxxl:text-[50px] xxxl:mt-10'>
+                            Challenges & Learnings
+                        </div>
                     </div>
                 </div>
-                <div className='bg-[#192333] sm:p-10 p-6 rounded-lg mt-4'>
+                <div className='bg-[#192333] sm:p-10 p-6 rounded-lg mt-4 max-w-screen-xxxl xxxl:mx-auto'>
                     <div className='text-[#E15A46] challanges_heading'>
                         Challanges
                     </div>
@@ -69,7 +73,7 @@ const MoreRentWIW = () => {
                         />
                         However, we collaborated effectively to overcome these obstacles and ultimately delivered a high-quality product within the given timeline.                    </div>
                 </div>
-                <div className='bg-[#192333] sm:p-10 p-6 rounded-lg sm:mt-12 mt-10'>
+                <div className='bg-[#192333] sm:p-10 p-6 rounded-lg sm:mt-12 mt-10 max-w-screen-xxxl xxxl:mx-auto'>
                     <div className='text-[#02BC7D] challanges_heading'>
                         Learnings
                     </div>

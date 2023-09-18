@@ -39,7 +39,7 @@ const MoreRentHero = () => {
                         className='object-contain mt-10 hidden md:block xxxl:w-[200px] xxxxl:w-[300px] xxxxl:mt-12'
                     />
                 </div>
-                <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold'> 
+                <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[80px]'> 
                     <a href='https://morerent.vercel.app/' target="_blank">
                         <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[36px]'>
                                 <Image

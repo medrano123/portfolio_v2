@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
     return (
-        <div className='sm:px-14 px-6 sm:flex sm:justify-between sm:pt-0 pt-10' id="footer">
+        <div className='sm:px-14 px-6 sm:flex sm:justify-between sm:pt-0 pt-10 max-w-screen-xxxl xxxl:mx-auto xxxl:pb-8' id="footer">
             <div className='flex flex-col sm:flex-row sm:items-end justify-center items-center text-'>
                 <p className='sm:mr-2 text-[#778295]'>
                     © 2023 Giovanni. All rights reserved.

@@ -6,12 +6,14 @@ const MoreRentMoreProjects = () => {
     return (
         <>
             <div className='sm:px-52 px-6 bg-[#192333] w-full sm:pt-16 pt-10'>
-                <div className='sm:pb-16 pb-10'>
-                    <div className='text-[#428DFF] techstack_sub pb-6'>
-                        Projects
-                    </div>
-                    <div className='techstack_head'>
-                        Other Case Studies
+                <div className='max-w-screen-xxxl xxxl:mx-auto'>
+                    <div className='sm:pb-16 pb-10'>
+                        <div className='text-[#428DFF] techstack_sub pb-6 xxxl:text-[45px] xxxxl:text-[55px] xxxl:mt-10'>
+                            Projects
+                        </div>
+                        <div className='techstack_head xxxl:text-[40px] xxxxl:text-[50px] xxxl:mt-10'>
+                            Other Case Studies
+                        </div>
                     </div>
                 </div>
             </div>

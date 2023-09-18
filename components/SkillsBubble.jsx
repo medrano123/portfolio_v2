@@ -19,13 +19,13 @@ const SkillsBubble = ({ skill }) => {
                 whileHover={{ scale: 1.25 }}
                 className="relative"
             >
-                <div className="h-[90px] w-[90px] rounded-full bg-[#192333] flex items-center justify-center drop-shadow-xl">
+                <div className="h-[90px] w-[90px] xxxxl:h-[200px] xxxxl:w-[200px] rounded-full bg-[#192333] flex items-center justify-center drop-shadow-xl">
                     <Image
                         src={icon}
                         width={50}
                         height={50}
                         alt="logo"
-                        className='object-contain'
+                        className='object-contain xxxxl:h-[120px] xxxxl:w-[120px]'
                     />
                 </div>
             </motion.div>
