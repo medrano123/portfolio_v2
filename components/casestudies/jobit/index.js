@@ -1,0 +1,1 @@
+export { default as JobItCard } from './JobItCard';

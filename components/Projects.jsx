@@ -5,7 +5,8 @@ import Image from 'next/image';
 import { motion } from "framer-motion";
 
 import { fadeIn, slideIn, textVariant } from "../utils/motion/motion.js";
-import { MoreRentCard, JobItCard } from './casestudies';
+import { JobItCard } from './casestudies/jobit';
+import { MoreRentCard } from './casestudies/morerent';
 import SectionWrapper from '@/hoc/SectionWrapper'
 
 const Projects = () => {

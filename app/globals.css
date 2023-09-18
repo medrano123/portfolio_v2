@@ -222,7 +222,6 @@
 
 .logo-font {
   font-family: Righteous;
-  font-size: 26px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
@@ -347,4 +346,39 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
-  }
+}
+
+.otherprojectheading {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.otherprojectsub {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.getInTouch {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.getInTouchText {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}

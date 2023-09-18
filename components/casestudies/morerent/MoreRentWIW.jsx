@@ -26,7 +26,7 @@ const MoreRentWIW = () => {
                     ))}
                 </div>
             </div>
-            <div className='sm:px-52 px-6 bg-[#151E2C] w-full xxxl:min-h-fit pb-10'>
+            <div className='sm:px-52 px-6 bg-[#151E2C] w-full xxxl:min-h-fit pb-16'>
                 <div className='pb-6'>
                     <div className='text-[#428DFF] techstack_sub pb-6'>
                         Problem
@@ -35,7 +35,7 @@ const MoreRentWIW = () => {
                         Challenges & Learnings
                     </div>
                 </div>
-                <div className='bg-[#192333] sm:p-10 p-6 sm:pt-0 pt-8 rounded-lg mt-4'>
+                <div className='bg-[#192333] sm:p-10 p-6 rounded-lg mt-4'>
                     <div className='text-[#E15A46] challanges_heading'>
                         Challanges
                     </div>
@@ -69,7 +69,7 @@ const MoreRentWIW = () => {
                         />
                         However, we collaborated effectively to overcome these obstacles and ultimately delivered a high-quality product within the given timeline.                    </div>
                 </div>
-                <div className='bg-[#192333] sm:p-10 p-6 sm:pt-0 pt-8 rounded-lg mt-4'>
+                <div className='bg-[#192333] sm:p-10 p-6 rounded-lg sm:mt-12 mt-10'>
                     <div className='text-[#02BC7D] challanges_heading'>
                         Learnings
                     </div>

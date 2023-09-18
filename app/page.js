@@ -11,7 +11,7 @@ export default function Home() {
 			<Education />
 			<Projects />
 			<Testimonials />
-			<div className='relative z-0 bg-[#151E2C] py-10'>
+			<div className='relative z-0 bg-[#151E2C] pt-10 sm:pb-10 pb-6'>
 				<Contact />
 				<StarsCanvas />
 				<Footer />
