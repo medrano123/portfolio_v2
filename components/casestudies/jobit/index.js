@@ -1,1 +1,9 @@
 export { default as JobItCard } from './JobItCard';
+export { default as JobItHero } from './JobItHero';
+export { default as JobItMyRole } from './JobItMyRole';
+export { default as JobItTechStack } from './JobItTechStack';
+export { default as JobItDescription } from './JobItDescription';
+export { default as JobItProblemStatement } from './JobItProblemStatement';
+export { default as JobItFigmaDesign } from './JobItFigmaDesign';
+export { default as JobItWIW } from './JobItWIW';
+export { default as JobItMoreProjects } from './JobItMoreProjects';

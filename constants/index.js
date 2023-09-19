@@ -172,6 +172,57 @@ export const moreRentStack = [
 }
 ]
 
+export const jobItStack = [
+  {
+    name: "JavaScript",
+    icon: '/assets/skills/javascript.png',
+  },
+  {
+    name: "TypeScript",
+    icon: '/assets/skills/typescript.png',
+  },
+  {
+    name: "React JS",
+    icon: '/assets/skills/reactjs.png',
+  },
+  {
+    name: 'Next Js',
+    icon: '/assets/skills/nextblack.png',
+  },
+  {
+    name: "HTML 5",
+    icon: '/assets/skills/html.png',
+  },
+  {
+    name: "CSS 3",
+    icon: '/assets/skills/css.png',
+  },
+  {
+    name: "Redux Toolkit",
+    icon: '/assets/skills/redux.png',
+  },
+  {
+    name: "Tailwind CSS",
+    icon: '/assets/skills/tailwind.png',
+  },
+  {
+    name: "Node JS",
+    icon: '/assets/skills/node.png',
+  },
+  {
+    name: "GitHub",
+    icon: '/assets/skills/github.png',
+  },
+  {
+    name: "Git",
+    icon: '/assets/skills/git.png',
+  },
+{
+  name:'Figma',
+  icon: '/assets/skills/figma.png'
+}
+]
+
 export const wow = [ 
   {
     name: "Definition",

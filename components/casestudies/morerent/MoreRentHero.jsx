@@ -19,7 +19,7 @@ const MoreRentHero = () => {
                             </span>
                     </h1>
                 </div> */}
-                <div className='flex morerenttitle xxxxl:text-[100px] sm:text-[58px] text-[37px] font-bold pt-4'>
+                <div className='flex morerenttitle xxxxl:text-[100px] sm:text-[58px] text-[37px] font-bold pt-4 xxxl:pb-4'>
                     MoreRent - A Car Rental Website
                 </div>
                 
