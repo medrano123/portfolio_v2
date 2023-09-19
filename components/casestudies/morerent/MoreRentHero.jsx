@@ -19,7 +19,7 @@ const MoreRentHero = () => {
                             </span>
                     </h1>
                 </div> */}
-                <div className='flex morerenttitle xxxxl:text-[100px] sm:text-[58px] text-[37px] font-bold xxxl:pt-2 pt-4'>
+                <div className='flex morerenttitle xxxxl:text-[100px] sm:text-[58px] text-[37px] font-bold pt-4'>
                     MoreRent - A Car Rental Website
                 </div>
                 
@@ -41,7 +41,7 @@ const MoreRentHero = () => {
                 </div>
                 <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[40px]'> 
                     <a href='https://morerent.vercel.app/' target="_blank">
-                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[26px]'>
+                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[28px]'>
                                 <Image
                                     src='/assets/morerent/visit.png'
                                     width={20}
@@ -55,12 +55,12 @@ const MoreRentHero = () => {
                                     width={24}
                                     height={24}
                                     alt='arrow'
-                                    className='object-contain hidden sm:block xxxl:w-[28px] xxxxl:w-[50px]'
+                                    className='object-contain hidden sm:block xxxl:w-[26px] xxxxl:w-[50px]'
                                 />
                         </div>
                     </a>
                     <a href='https://github.com/medrano123/' target="_blank">
-                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[36px]'>
+                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[28px]'>
                                 <Image
                                     src='/assets/morerent/git.png'
                                     width={20}
@@ -74,7 +74,7 @@ const MoreRentHero = () => {
                                     width={24}
                                     height={24}
                                     alt='arrow'
-                                    className='object-contain hidden sm:block xxxl:w-[28px] xxxxl:w-[50px]'
+                                    className='object-contain hidden sm:block xxxl:w-[26px] xxxxl:w-[50px]'
                                 />
                         </div>
                     </a>
