@@ -5,7 +5,7 @@ const MoreRentHero = () => {
     return (
         <div className='sm:px-14 px-6 bg-[#192333] w-full sm:min-h-screen' id="herosection">
             <section className='sm:pt-[150px] pt-[110px] flex items-center justify-center flex-col'> 
-                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[52px] text-[26px] xxxl:pb-12 sm:py-0 py-8 xxxl:pt-16 xxxxl:pt-36'>
+                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[52px] text-[26px] xxxl:pb-8 sm:py-0 py-8 xxxl:pt-12 xxxxl:pt-36'>
                     Web Dev Project
                 </p>
                 {/* <div className='sm:flex morerenttitle sm:text-[64px] text-[38px] mt-6'>
@@ -39,7 +39,7 @@ const MoreRentHero = () => {
                         className='object-contain mt-10 hidden md:block xxxl:w-[200px] xxxxl:w-[300px] xxxxl:mt-12'
                     />
                 </div>
-                <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[80px]'> 
+                <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[60px]'> 
                     <a href='https://morerent.vercel.app/' target="_blank">
                         <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[36px]'>
                                 <Image

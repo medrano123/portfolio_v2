@@ -9,7 +9,7 @@ const MoreRentCard = () => {
             <div className='flex flex-1 flex-col items-center justify-center'>
                 <div className='sm:p-0 p-4'>
                     <div className='flex lg:text-[3rem] text-[2rem] font-bold sm:w-[480px]'>
-                        Morrent - A Car Rental Application
+                        MoreRent - A Car Rental Application
                     </div>
                     <div className='flex gap-2 mt-2 sm:text-[1rem] text-[.96rem]'>
                         <p className='p-2 h-[42px] bg-white/20 rounded-lg'>

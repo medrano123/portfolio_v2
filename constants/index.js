@@ -97,6 +97,10 @@ export const skills = [
     {
       name: "Express",
       icon: '/assets/skills/ex.png'
+    },
+    {
+      name:'Figma',
+      icon: '/assets/skills/figma.png'
     }
 
 ];
@@ -146,10 +150,10 @@ export const moreRentStack = [
     name: "GitHub",
     icon: '/assets/skills/github.png',
   },
-  {
-    name: "Git",
-    icon: '/assets/skills/git.png',
-  },
+  // {
+  //   name: "Git",
+  //   icon: '/assets/skills/git.png',
+  // },
   {
       name: "Express",
       icon: '/assets/skills/ex.png'
@@ -161,6 +165,10 @@ export const moreRentStack = [
 {
   name: "Stripe",
   icon: '/assets/skills/stripe.png'
+},
+{
+  name:'Figma',
+  icon: '/assets/skills/figma.png'
 }
 ]
 
