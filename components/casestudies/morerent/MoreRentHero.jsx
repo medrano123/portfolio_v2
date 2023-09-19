@@ -23,7 +23,7 @@ const MoreRentHero = () => {
                     MoreRent - A Car Rental Website
                 </div>
                 
-                <div className='flex justify-center items-center sm:py-4 py-4 xxxl:pt-10'>
+                <div className='flex justify-center items-center sm:py-4 py-4 xxxl:pt-2'>
                     <Image
                         src='/assets/morerent/computer.png'
                         width={550}
@@ -47,7 +47,7 @@ const MoreRentHero = () => {
                                     width={20}
                                     height={20}
                                     alt='social'
-                                    className='object-contain xxxl:w-[30px] xxxxl:w-[50px]'
+                                    className='object-contain xxxl:w-[28px] xxxxl:w-[50px]'
                                 />                       
                                 Demo Site
                                 <Image
@@ -55,18 +55,18 @@ const MoreRentHero = () => {
                                     width={24}
                                     height={24}
                                     alt='arrow'
-                                    className='object-contain hidden sm:block xxxl:w-[30px] xxxxl:w-[50px]'
+                                    className='object-contain hidden sm:block xxxl:w-[28px] xxxxl:w-[50px]'
                                 />
                         </div>
                     </a>
                     <a href='https://github.com/medrano123/' target="_blank">
-                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[30px]'>
+                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[36px]'>
                                 <Image
                                     src='/assets/morerent/git.png'
                                     width={20}
                                     height={20}
                                     alt='social'
-                                    className='object-contain xxxl:w-[30px] xxxxl:w-[50px]'
+                                    className='object-contain xxxl:w-[28px] xxxxl:w-[50px]'
                                 />                       
                                 Source Code
                                 <Image
@@ -74,7 +74,7 @@ const MoreRentHero = () => {
                                     width={24}
                                     height={24}
                                     alt='arrow'
-                                    className='object-contain hidden sm:block xxxl:w-[30px] xxxxl:w-[50px]'
+                                    className='object-contain hidden sm:block xxxl:w-[28px] xxxxl:w-[50px]'
                                 />
                         </div>
                     </a>
