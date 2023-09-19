@@ -23,7 +23,7 @@ const MoreRentHero = () => {
                     MoreRent - A Car Rental Website
                 </div>
                 
-                <div className='flex justify-center items-center sm:py-4 py-4 xxxl:py-2'>
+                <div className='flex justify-center items-center sm:py-4 py-4'>
                     <Image
                         src='/assets/morerent/computer.png'
                         width={550}
