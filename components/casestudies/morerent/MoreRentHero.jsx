@@ -5,7 +5,7 @@ const MoreRentHero = () => {
     return (
         <div className='sm:px-14 px-6 bg-[#192333] w-full sm:min-h-screen' id="herosection">
             <section className='sm:pt-[150px] pt-[110px] flex items-center justify-center flex-col'> 
-                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[48px] text-[26px] xxxl:pb-8 sm:py-0 py-8 xxxl:pt-12 xxxxl:pt-36'>
+                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[42px] text-[26px] xxxl:pb-2 sm:py-0 py-8 xxxl:pt-6 xxxxl:pt-36'>
                     Web Dev Project
                 </p>
                 {/* <div className='sm:flex morerenttitle sm:text-[64px] text-[38px] mt-6'>
@@ -29,7 +29,7 @@ const MoreRentHero = () => {
                         width={550}
                         height={350}
                         alt='computer'
-                        className='object-contain xxxl:w-[800px] xxxxl:w-[1500px]'
+                        className='object-contain xxxl:w-[750px] xxxxl:w-[1500px]'
                     />
                     <Image
                         src='/assets/morerent/phone.png'
@@ -41,7 +41,7 @@ const MoreRentHero = () => {
                 </div>
                 <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[60px]'> 
                     <a href='https://morerent.vercel.app/' target="_blank">
-                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[36px]'>
+                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[26px]'>
                                 <Image
                                     src='/assets/morerent/visit.png'
                                     width={20}
@@ -60,7 +60,7 @@ const MoreRentHero = () => {
                         </div>
                     </a>
                     <a href='https://github.com/medrano123/' target="_blank">
-                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[36px]'>
+                        <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[30px]'>
                                 <Image
                                     src='/assets/morerent/git.png'
                                     width={20}
