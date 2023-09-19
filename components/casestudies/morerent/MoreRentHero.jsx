@@ -5,7 +5,7 @@ const MoreRentHero = () => {
     return (
         <div className='sm:px-14 px-6 bg-[#192333] w-full sm:min-h-screen' id="herosection">
             <section className='sm:pt-[150px] pt-[110px] flex items-center justify-center flex-col'> 
-                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[42px] text-[26px] xxxl:pb-2 sm:py-0 py-8 xxxl:pt-6 xxxxl:pt-36'>
+                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[38px] text-[26px] xxxl:pb-2 sm:py-0 py-8 xxxl:pt-6 xxxxl:pt-36'>
                     Web Dev Project
                 </p>
                 {/* <div className='sm:flex morerenttitle sm:text-[64px] text-[38px] mt-6'>
@@ -19,11 +19,11 @@ const MoreRentHero = () => {
                             </span>
                     </h1>
                 </div> */}
-                <div className='flex morerenttitle xxxxl:text-[100px] sm:text-[60px] text-[37px] font-bold pt-4'>
+                <div className='flex morerenttitle xxxxl:text-[100px] sm:text-[58px] text-[37px] font-bold xxxl:pt-2 pt-4'>
                     MoreRent - A Car Rental Website
                 </div>
                 
-                <div className='flex justify-center items-center sm:py-4 py-4 xxxl:pt-2'>
+                <div className='flex justify-center items-center sm:py-4 py-4 xxxl:py-2'>
                     <Image
                         src='/assets/morerent/computer.png'
                         width={550}
@@ -39,7 +39,7 @@ const MoreRentHero = () => {
                         className='object-contain mt-10 hidden md:block xxxl:w-[160px] xxxxl:w-[300px] xxxxl:mt-12'
                     />
                 </div>
-                <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[60px]'> 
+                <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[40px]'> 
                     <a href='https://morerent.vercel.app/' target="_blank">
                         <div className='flex gap-2 xxxxl:text-[60px] xxxl:text-[26px]'>
                                 <Image
