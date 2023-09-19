@@ -29,14 +29,14 @@ const MoreRentHero = () => {
                         width={550}
                         height={350}
                         alt='computer'
-                        className='object-contain xxxl:w-[900px] xxxxl:w-[1500px]'
+                        className='object-contain xxxl:w-[850px] xxxxl:w-[1500px]'
                     />
                     <Image
                         src='/assets/morerent/phone.png'
                         width={130}
                         height={50}
                         alt='computer'
-                        className='object-contain mt-10 hidden md:block xxxl:w-[200px] xxxxl:w-[300px] xxxxl:mt-12'
+                        className='object-contain mt-10 hidden md:block xxxl:w-[180px] xxxxl:w-[300px] xxxxl:mt-12'
                     />
                 </div>
                 <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[60px]'> 
