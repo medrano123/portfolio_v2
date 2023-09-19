@@ -9,10 +9,10 @@ const MoreRentTechStack = () => {
             <div className='sm:px-52 px-6 bg-[#151E2C] w-full xxxl:min-h-fit sm:pt-16 pt-10'>
                 <div className='max-w-screen-xxxl xxxl:mx-auto'>
                     <div className='pb-6'>
-                        <div className='text-[#428DFF] techstack_sub pb-6 xxxl:text-[45px] xxxxl:text-[55px] xxxl:pb-4 '>
+                        <div className='text-[#428DFF] techstack_sub pb-6 xxxl:text-[45px] xxxxl:text-[55px]'>
                             Technologies used
                         </div>
-                        <div className='techstack_head xxxl:text-[45px] xxxxl:text-[55px] xxxxl:mt-10 '>
+                        <div className='techstack_head xxxl:text-[45px] xxxxl:text-[55px] xxxxl:mt-10 xxxl:mt-6 '>
                             Tech Stack
                         </div>
                     </div>

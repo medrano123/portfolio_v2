@@ -13,7 +13,7 @@ const MoreRentProblemStatement = () => {
                         Problem Statement
                     </div>
                 </div>
-                <div className='caseStudyDescription py-6 max-w-6xl xxxl:text-[40px] xxxxl:text-[50px] xxxl:leading-none xxxxl:max-w-full'>
+                <div className='caseStudyDescription py-6 max-w-6xl xxxl:text-[40px] xxxxl:text-[50px] xxxl:leading-none xxxl:max-w-full'>
                     One of the main problems that people face when looking to rent a car is the hassle of finding a reliable and user-friendly platform to search for and book rental cars. In addition, car owners who want to rent out their vehicles often struggle to find a suitable platform to list their cars and manage their rentals.           
                 </div>
                 <div>

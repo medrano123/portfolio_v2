@@ -5,7 +5,7 @@ const MoreRentHero = () => {
     return (
         <div className='sm:px-14 px-6 bg-[#192333] w-full sm:min-h-screen' id="herosection">
             <section className='sm:pt-[150px] pt-[110px] flex items-center justify-center flex-col'> 
-                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[52px] text-[26px] xxxl:pb-8 sm:py-0 py-8 xxxl:pt-12 xxxxl:pt-36'>
+                <p className='text-[#428DFF] webdev xxxxl:text-[70px] xxxl:text-[48px] text-[26px] xxxl:pb-8 sm:py-0 py-8 xxxl:pt-12 xxxxl:pt-36'>
                     Web Dev Project
                 </p>
                 {/* <div className='sm:flex morerenttitle sm:text-[64px] text-[38px] mt-6'>
@@ -29,14 +29,14 @@ const MoreRentHero = () => {
                         width={550}
                         height={350}
                         alt='computer'
-                        className='object-contain xxxl:w-[850px] xxxxl:w-[1500px]'
+                        className='object-contain xxxl:w-[800px] xxxxl:w-[1500px]'
                     />
                     <Image
                         src='/assets/morerent/phone.png'
                         width={130}
                         height={50}
                         alt='computer'
-                        className='object-contain mt-10 hidden md:block xxxl:w-[180px] xxxxl:w-[300px] xxxxl:mt-12'
+                        className='object-contain mt-10 hidden md:block xxxl:w-[160px] xxxxl:w-[300px] xxxxl:mt-12'
                     />
                 </div>
                 <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold xxxl:pt-[60px]'> 
