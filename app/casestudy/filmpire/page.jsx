@@ -12,6 +12,7 @@ export default function Home() {
             <FilmpireTechStack />
             <FilmpireDescription />
             <FilmpireProblemStatement />
+            <FilmpireWIW /> 
 			{/* <GetInTouch />
 			<div className='relative z-0 bg-[#151E2C] pb-8'>
 				<Footer />

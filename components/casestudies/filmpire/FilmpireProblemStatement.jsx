@@ -13,7 +13,7 @@ const FilmpireProblemStatement = () => {
                         Problem Statement
                     </div>
                 </div>
-                <div className='caseStudyDescription pb-6 max-w-6xl xxxl:text-[40px] xxxxl:text-[50px] xxxl:leading-none xxxl:max-w-full'>
+                <div className='caseStudyDescription pb-8 max-w-6xl xxxl:text-[40px] xxxxl:text-[50px] xxxl:leading-none xxxl:max-w-full'>
                     In today's digital age, movie enthusiasts and cinephiles are often left wanting when searching for a comprehensive platform to cater to their cinematic interests. One of the primary challenges they face is sifting through numerous scattered databases just to explore, review, and watch the latest and trending movie trailers. This fragmentation makes the pursuit of film knowledge and entertainment more tedious than it needs to be. Furthermore, film professionals, critics, and avid movie fans who are eager to share insights, rate movies, or delve into detailed actor profiles frequently find themselves navigating a complex web of incomplete and unrefined platforms. The absence of a centralized, user-friendly, and expansive platform denies them the seamless and enriched experience they truly desire in their film exploration journey.
                 </div>
                 <div>
