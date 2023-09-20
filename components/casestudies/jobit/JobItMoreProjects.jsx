@@ -44,21 +44,21 @@ const MoreRentMoreProjects = () => {
                 </div>
                 <div className='max-w-[430px] py-12 sm:py-0'>
                     <Image
-                        src='/assets/morerent/jobitcard.png'
+                        src='/assets/filmpire/film2.png'
                         width={430}
                         height={230}
                         alt="challanges"
                         className='object-contain flex-none rounded-t-lg'
                     />
-                    <div className='text-[#428DFF] otherprojectheading p-4 bg-[#151E2C]'>
-                        JobIt
+                    <div className='text-[#428DFF] otherprojectheading p-4 bg-[#151E2C] pt-5'>
+                        Filmpire
                     </div>
-                    <div className='otherprojectsub px-4 bg-[#151E2C]'>
-                        Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...
+                    <div className='otherprojectsub px-4 bg-[#151E2C] pt-5'>
+                        Filmpire - A Movie Database made with React and TMDB API, links movie enthusiasts with a wide variety of movie details...
                     </div> 
                     <div className='bg-[#151E2C] px-4 py-6 rounded-b-lg'>
                         <div className='bg-[#428DFF] rounded-full py-4 px-8 flex justify-center'>
-                            <Link href='/casestudy/jobit'>
+                            <Link href='/casestudy/filmpire'>
                                 <div className='flex xxl:items-center xxl:justify-center'>
                                     See Case Study
                                 </div>

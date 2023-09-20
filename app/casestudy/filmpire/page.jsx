@@ -13,10 +13,11 @@ export default function Home() {
             <FilmpireDescription />
             <FilmpireProblemStatement />
             <FilmpireWIW /> 
-			{/* <GetInTouch />
+            <FilmpireMoreProjects />
+			<GetInTouch />
 			<div className='relative z-0 bg-[#151E2C] pb-8'>
 				<Footer />
-			</div> */}
+			</div>
 		</main>
 	)
 }
