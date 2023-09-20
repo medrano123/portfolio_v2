@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { fadeIn, slideIn, textVariant } from "../utils/motion/motion.js";
 import { JobItCard } from './casestudies/jobit';
 import { MoreRentCard } from './casestudies/morerent';
+import { FilmpireCard } from './casestudies/filmpire/index.js';
 import SectionWrapper from '@/hoc/SectionWrapper'
 
 const Projects = () => {
@@ -36,6 +37,12 @@ const Projects = () => {
                 className="w-full max-w-screen-xxxl"
             >
                 <JobItCard />  
+            </motion.div>
+            <motion.div
+                variants={fadeIn("up", "spring", 2 * 0.5, 0.75)}
+                className="w-full max-w-screen-xxxl"
+            >
+                <FilmpireCard />  
             </motion.div>
         </div>
     );

@@ -220,6 +220,61 @@ export const jobItStack = [
 {
   name:'Figma',
   icon: '/assets/skills/figma.png'
+},
+{
+  name:'JSearch',
+  icon: '/assets/jobit/jobsearch.png'
+},
+{
+  name:'GeoDB',
+  icon: '/assets/jobit/geodb.png'
+}
+]
+
+export const filmpireStack = [
+  {
+    name: "JavaScript",
+    icon: '/assets/skills/javascript.png',
+  },
+  {
+    name: "React JS",
+    icon: '/assets/skills/reactjs.png',
+  },
+  {
+    name: "HTML 5",
+    icon: '/assets/skills/html.png',
+  },
+  {
+    name: "CSS 3",
+    icon: '/assets/skills/css.png',
+  },
+  {
+    name: "Redux Toolkit",
+    icon: '/assets/skills/redux.png',
+  },
+  {
+    name: "MUI",
+    icon: '/assets/skills/mui.png',
+  },
+  {
+    name: "Node JS",
+    icon: '/assets/skills/node.png',
+  },
+  {
+    name: "GitHub",
+    icon: '/assets/skills/github.png',
+  },
+  {
+    name: "Git",
+    icon: '/assets/skills/git.png',
+  },
+{
+  name:'Figma',
+  icon: '/assets/skills/figma.png'
+},
+{
+  name:'TMDB API',
+  icon: '/assets/filmpire/tmdb.png'
 }
 ]
 

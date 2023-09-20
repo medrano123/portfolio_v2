@@ -11,14 +11,14 @@ const JobItCard = () => {
                     src='/assets/projects/jobitfreatured.png'
                     width={575}
                     height={330}
-                    alt='morerentfeatured'
+                    alt='jobitfeatured'
                     className='object-contain'
                 />
                 <Image
                     src='/assets/projects/jobitsmall.png'
                     width={100}
                     height={100}
-                    alt='morerentfeatured'
+                    alt='jobitfeatured'
                     className='object-contain mt-16'
                 />
             </div>
