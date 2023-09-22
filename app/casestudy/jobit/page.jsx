@@ -19,14 +19,6 @@ export default function Home() {
 			<div className='relative z-0 bg-[#151E2C] pb-8'>
 				<Footer />
 			</div> 
-			{/* <MoreRentProblemStatement />
-			<MoreRentFigmaDesign />
-			<MoreRentWIW />
-			<MoreRentMoreProjects />
-			<GetInTouch />
-			<div className='relative z-0 bg-[#151E2C] pb-8'>
-				<Footer />
-			</div> */}
 		</main>
 	)
 }

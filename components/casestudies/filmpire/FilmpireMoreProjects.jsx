@@ -42,7 +42,7 @@ const FilmpireMoreProjects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='max-w-[430px]'>
+                <div className='max-w-[430px] py-12 sm:py-0'>
                     <Image
                         src='/assets/morerent/hfd.png'
                         width={430}
@@ -65,6 +65,7 @@ const FilmpireMoreProjects = () => {
                             </Link>
                         </div>
                     </div>
+                    
                 </div>
             </div>   
                    
