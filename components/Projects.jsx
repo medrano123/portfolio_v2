@@ -12,7 +12,7 @@ import SectionWrapper from '@/hoc/SectionWrapper'
 
 const Projects = () => {
     return (
-        <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col sm:pb-24 pb-14' id="projects">
+        <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col sm:pb-2 pb-2' id="projects">
             <motion.div variants={textVariant(0.2)}> 
                 <div className='flex font-black lg:text-[50px] sm:text-[35px] text-[30px] sm:pt-[50px] pt-[40px] max-w-screen-xxxl'>
                     <div className='sm:mr-4 mr-2'>
