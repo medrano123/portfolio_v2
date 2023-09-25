@@ -70,7 +70,7 @@ const ProjectCard = ({ name, description, index, tags, image, source_code_link, 
                 </Tilt>
             </motion.div>
             <motion.div
-			variants={slideIn('right', "tween", 0.2, 1)}
+			variants={slideIn('right', "tween", 0.1, 0.5)}
 			// variants={fadeIn('up', 'spring', index * 0.4, 0.5)}
             className="sm:hidden"
         >

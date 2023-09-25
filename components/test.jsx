@@ -1,87 +1,97 @@
-import React from 'react'
-import Image from 'next/image'
+"use client"
+import React from "react";
+import { Tilt } from "react-tilt";
+import { motion } from "framer-motion";
+import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 
-const MoreRentHero = () => {
+import { projects } from "../constants";
+import { fadeIn, slideIn, textVariant } from "../utils/motion/motion.js";
+
+
+const ProjectCard = ({ name, description, index, tags, image, source_code_link, deployed_link}) => {
+
+	return (
+        <motion.div
+            variants={fadeIn("up", "spring", 1 * 0.5, 0.75)}
+            className=""
+        >
+			<Tilt 
+				options={{
+					max: 45,
+					scale: 1,
+					speed: 450,
+				}}
+				className="bg-[#192333] p-5 rounded-2xl sm:w-[360px] w-full min-h-[430px]"
+			>
+				<div className="relative w-full h-[230px]">
+					<img
+						src={image}
+						alt={name}
+						className="w-[360px] h-[230px] object-cover rounded-2xl"
+					/>
+					<div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
+						<div
+							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+							onClick={() => window.open(deployed_link, "_blank")}
+						>	
+							<AiFillEye
+								size={22}
+							/>
+						</div>
+						<div
+							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+							onClick={() => window.open(source_code_link, "_blank")}
+						>	
+							<AiFillGithub
+								size={22}
+							/>
+						</div>
+					</div>
+				</div>
+				<div className="mt-5">
+					<h3 className="text-white font-bold text-[24px]">
+						{name}
+					</h3>
+					<p className="mt-2 text-secondary text-[14px]">
+						{description}
+					</p>
+				</div>
+				<div className="mt-4 flex flex-wrap gap-2">
+					 {tags.map((tag) => (
+						<p key={tag.name} className={`text-[14px] ${tag.color}`}>
+							#{tag.name}
+						</p>
+					 ))}
+				</div>
+			</Tilt>
+		</motion.div>
+	)
+}
+
+
+const HonorableMentions = () => {
     return (
-        <div className='sm:px-14 px-6 bg-[#192333] w-full sm:min-h-screen' id="herosection">
-            <section className='sm:pt-[150px] pt-[110px] flex items-center justify-center flex-col'> 
-                <p className='text-[#428DFF] webdev xxxl:text-[52px] text-[26px] xxxl:pb-12 sm:py-0 py-10 xxxl:pt-16'>
-                    Web Dev Project
-                </p>
-                {/* <div className='sm:flex morerenttitle sm:text-[64px] text-[38px] mt-6'>
-                    <h1 className='flex font-bold'>
-                            <span>
-                                MoreRent
-                                <div className='h-3 bg-[#ffbe62] w-full sm:-mt-9 -mt-5 z-0' />
-                            </span> 
-                            <span className='ml-2'>
-                                - A Car Rental Website
-                            </span>
-                    </h1>
-                </div> */}
-                <div className='flex morerenttitle sm:text-[64px] text-[37px] font-bold py-4'>
-                    MoreRent - A Car Rental Website
+        <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col'>
+
+            <motion.div
+				variants={textVariant()}
+			>
+                <h2 className='flex font-black lg:text-[50px] sm:text-[35px] text-[30px] max-w-screen-xxxl'>
+					Honorable Mentions.
+				</h2>
+			</motion.div> 
+
+                <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col sm:flex-row sm:pb-24 pb-14 flex-wrap gap-7'>
+                    {projects.map((project, index)=>(
+                        <ProjectCard
+                            key={`project-${index}`}
+                            {...project}
+                            index={index}
+                        />
+                    ))}
                 </div>
-                
-                <div className='flex justify-center items-center sm:py-4 py-4 xxxl:pt-10'>
-                    <Image
-                        src='/assets/morerent/computer.png'
-                        width={600}
-                        height={350}
-                        alt='computer'
-                        className='object-contain xxxl:w-[900px]'
-                    />
-                    <Image
-                        src='/assets/morerent/phone.png'
-                        width={150}
-                        height={50}
-                        alt='computer'
-                        className='object-contain mt-10 hidden md:block xxxl:w-[200px]'
-                    />
-                </div>
-                <div className='flex py-8 lg:gap-60 gap-10 text-[#428DFF] morerenttitle font-bold'> 
-                    <a href='https://morerent.vercel.app/' target="_blank">
-                        <div className='flex gap-2 xxxl:text-[36px]'>
-                                <Image
-                                    src='/assets/morerent/visit.png'
-                                    width={20}
-                                    height={20}
-                                    alt='social'
-                                    className='object-contain xxxl:w-[30px]'
-                                />                       
-                                Demo Site
-                                <Image
-                                    src='/assets/morerent/arrow.png'
-                                    width={24}
-                                    height={24}
-                                    alt='arrow'
-                                    className='object-contain hidden sm:block xxxl:w-[30px]'
-                                />
-                        </div>
-                    </a>
-                    <a href='https://github.com/medrano123/' target="_blank">
-                        <div className='flex gap-2 xxxl:text-[36px]'>
-                                <Image
-                                    src='/assets/morerent/git.png'
-                                    width={20}
-                                    height={20}
-                                    alt='social'
-                                    className='object-contain'
-                                />                       
-                                Source Code
-                                <Image
-                                    src='/assets/morerent/arrow.png'
-                                    width={24}
-                                    height={24}
-                                    alt='arrow'
-                                    className='object-contain hidden sm:block'
-                                />
-                        </div>
-                    </a>
-                </div>
-            </section>
         </div>
     )
 }
 
-export default MoreRentHero
+export default HonorableMentions
