@@ -147,7 +147,7 @@ const HonorableMentions = () => {
                 </div>
             </motion.div>   
             <motion.div
-                variants={fadeIn("up", "spring", 1 * 0.5, 0.75)}
+                variants={fadeIn("up", "tween", 1 * 0.5, 0.75)}
                 className='bg-[#151E2C] justify-center items-center flex flex-col sm:flex-row pb-2 flex-wrap gap-7 sm:mt-10 mt-8'
             >
                 {projects.map((project, index)=>(
