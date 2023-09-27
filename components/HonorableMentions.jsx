@@ -134,7 +134,7 @@ const HonorableMentions = () => {
     return (
         <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col sm:pb-16 pb-14' id="projects">
             <motion.div variants={textVariant(0.2)}> 
-                <div className='flex font-black lg:text-[50px] sm:text-[35px] text-[30px] sm:pt-[50px] pt-[40px] max-w-screen-xxxl'>
+                <div className='flex font-black lg:text-[50px] sm:text-[35px] text-[30px] sm:pt-[50px] pt-[40px] max-w-screen-xxxl xxxl:mx-auto'>
                     <div className='sm:mr-4 mr-2'>
                         Honorable
                     </div>
@@ -148,7 +148,7 @@ const HonorableMentions = () => {
             </motion.div>   
             <motion.div
                 variants={fadeIn("up", "tween", 1 * 0.5, 0.75)}
-                className='bg-[#151E2C] justify-center items-center flex flex-col sm:flex-row pb-2 flex-wrap gap-7 sm:mt-10 mt-8'
+                className='bg-[#151E2C] justify-center items-center flex flex-col sm:flex-row pb-2 flex-wrap gap-7 sm:mt-10 mt-8 max-w-screen-xxxl xxxl:mx-auto'
             >
                 {projects.map((project, index)=>(
                         <ProjectCard

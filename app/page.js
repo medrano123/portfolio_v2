@@ -12,7 +12,7 @@ export default function Home() {
 			<Projects />
 			<HonorableMentions />
 			<Testimonials />
-			<div className='relative z-0 bg-[#151E2C] pt-10 sm:pb-10 pb-6'>
+			<div className='relative z-0 bg-[#151E2C] pt-10 sm:pb-10 pb-6 '>
 				<Contact />
 				<StarsCanvas />
 				<Footer />

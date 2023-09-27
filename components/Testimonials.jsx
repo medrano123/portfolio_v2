@@ -9,7 +9,7 @@ import { testimonials } from "../constants";
 const FeedbackCard = ({ testimonial, name, image, company, index, designation }) => (
     <motion.div
         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-        className="bg-[#192333] p-10 rounded-3xl xxxxl:w-[850px] xxl:w-[480px] lg:w-[398px] xs:w-[320px] w-full"
+        className="bg-[#192333] p-10 rounded-3xl xxxxl:w-[550px] xxl:w-[480px] lg:w-[398px] xs:w-[320px] w-full"
     >
         <p className='text-white font-black text-[48px]'>"</p>
 
@@ -42,7 +42,7 @@ const Testimonials = () => {
       <motion.div 
           className="sm:px-16 px-6 sm:py-20 py-14 bg-[#192333]" 
       >
-          <div className='sm:px-16 px-6 sm:py-16 py-10 bg-[#151E2C] rounded-2xl sm:min-h-[300px] min-h-[230px]'>
+          <div className='sm:px-16 px-6 sm:py-16 py-10 bg-[#151E2C] rounded-2xl sm:min-h-[300px] min-h-[230px] max-w-screen-xxxl xxxl:mx-auto'>
               <motion.div variants={textVariant(0.2)}> 
                     <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
                         What others say
@@ -57,7 +57,7 @@ const Testimonials = () => {
                     </div>
               </motion.div>
           </div>
-          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 flex flex-wrap gap-7 bg-[#151E2C] rounded-2xl justify-between'>
+          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 flex flex-wrap gap-7 bg-[#151E2C] rounded-2xl justify-between max-w-screen-xxxl xxxl:mx-auto'>
               {testimonials.map((testimonial, index) => (
                   <FeedbackCard
                       key={testimonial.name}

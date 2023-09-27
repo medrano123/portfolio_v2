@@ -1,97 +1,75 @@
 "use client"
-import React from "react";
-import { Tilt } from "react-tilt";
+import React from 'react';
 import { motion } from "framer-motion";
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 
-import { projects } from "../constants";
-import { fadeIn, slideIn, textVariant } from "../utils/motion/motion.js";
+import SectionWrapper from '@/hoc/SectionWrapper.jsx';
+import { fadeIn, textVariant } from "../utils/motion/motion.js";
+import { testimonials } from "../constants";
 
+const FeedbackCard = ({ testimonial, name, image, company, index, designation }) => (
+    <motion.div
+        variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+        className="bg-[#192333] p-10 rounded-3xl  xxl:w-[480px] lg:w-[398px] xs:w-[320px] w-full"
+    >
+        <p className='text-white font-black text-[48px]'>"</p>
 
-const ProjectCard = ({ name, description, index, tags, image, source_code_link, deployed_link}) => {
-
-	return (
-        <motion.div
-            variants={fadeIn("up", "spring", 1 * 0.5, 0.75)}
-            className=""
-        >
-			<Tilt 
-				options={{
-					max: 45,
-					scale: 1,
-					speed: 450,
-				}}
-				className="bg-[#192333] p-5 rounded-2xl sm:w-[360px] w-full min-h-[430px]"
-			>
-				<div className="relative w-full h-[230px]">
-					<img
-						src={image}
-						alt={name}
-						className="w-[360px] h-[230px] object-cover rounded-2xl"
-					/>
-					<div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
-						<div
-							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-							onClick={() => window.open(deployed_link, "_blank")}
-						>	
-							<AiFillEye
-								size={22}
-							/>
-						</div>
-						<div
-							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-							onClick={() => window.open(source_code_link, "_blank")}
-						>	
-							<AiFillGithub
-								size={22}
-							/>
-						</div>
-					</div>
-				</div>
-				<div className="mt-5">
-					<h3 className="text-white font-bold text-[24px]">
-						{name}
-					</h3>
-					<p className="mt-2 text-secondary text-[14px]">
-						{description}
-					</p>
-				</div>
-				<div className="mt-4 flex flex-wrap gap-2">
-					 {tags.map((tag) => (
-						<p key={tag.name} className={`text-[14px] ${tag.color}`}>
-							#{tag.name}
-						</p>
-					 ))}
-				</div>
-			</Tilt>
-		</motion.div>
-	)
-}
-
-
-const HonorableMentions = () => {
-    return (
-        <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col'>
-
-            <motion.div
-				variants={textVariant()}
-			>
-                <h2 className='flex font-black lg:text-[50px] sm:text-[35px] text-[30px] max-w-screen-xxxl'>
-					Honorable Mentions.
-				</h2>
-			</motion.div> 
-
-                <div className='sm:px-14 px-6  bg-[#151E2C] justify-center items-center flex flex-col sm:flex-row sm:pb-24 pb-14 flex-wrap gap-7'>
-                    {projects.map((project, index)=>(
-                        <ProjectCard
-                            key={`project-${index}`}
-                            {...project}
-                            index={index}
-                        />
-                    ))}
+        <div className="mt-1">
+            <p className="text-white tracking-wider text-[24px]">
+                {testimonial}
+            </p>
+            <div className="mt-7 flex justify-between items-center gap-1">
+                <div className="flex-1 flex flex-col">
+                    <p className="text-white font-medium text-[16px]">
+                        <span className="blue-text-gradient">@</span> {name}
+                    </p>
+                    <p className="mt-1 text-secondary text-[12px]">
+                        {designation} at {company}
+                    </p>
                 </div>
+                <img 
+                    src={image}
+                    alt={`feedback-by-${name}`}
+                    className="w-10 h-10 rounded-full object-cover"
+                />
+            </div>
         </div>
+    </motion.div>
+)
+
+
+const Testimonials = () => {
+    return (
+      <motion.div 
+          className="sm:px-16 px-6 sm:py-20 py-14 bg-[#192333]" 
+      >
+        
+          <div className='sm:px-16 px-6 sm:py-16 py-10 bg-[#151E2C] rounded-2xl sm:min-h-[300px] min-h-[230px] mx-auto max-w-[1600px]'>
+              <motion.div variants={textVariant(0.2)}> 
+                    <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
+                        What others say
+                    </p>
+                    
+                    <div className="flex flex-col items-start"> {/* Enclosing div */}
+                        <h2 className='font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] z-10'>
+                            Testimonials.
+                            <div className='h-3 bg-[#ffbe62] w-full sm:-mt-8 -mt-4 z-0' />
+
+                        </h2>
+                    </div>
+              </motion.div>
+          </div>
+          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 bg-[#151E2C] rounded-2xl justify-between mx-auto max-w-[1600px]'>
+              {testimonials.map((testimonial, index) => (
+                  <FeedbackCard
+                      key={testimonial.name}
+                      index={index}
+                      {...testimonial}
+                  />
+              ))}
+          </div>
+      </motion.div>
     )
 }
 
-export default HonorableMentions
+
+export default SectionWrapper(Testimonials, 'testimonials')
