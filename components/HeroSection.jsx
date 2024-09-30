@@ -42,7 +42,7 @@ const HeroSection = () => {
 
                     <section className='sm:flex xxl:mt-[80px] mt-[24px] xxl:max-w-[811px] sm:max-w-[511px] font-medium items-center justify-center gap-6'>
                         <div className='bg-[#428DFF] sm:mt-0 mt-8 rounded-full py-4 px-8 flex justify-center'>
-                            <a href='/assets/GiovanniMedranoResume.pdf' download>                            
+                            <a href='/assets/Gio_resume.pdf' download>                            
 
                                 <div className='flex xxl:items-center xxl:justify-center'>
                                 Resume
