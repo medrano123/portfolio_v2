@@ -24,9 +24,9 @@ const HeroSection = () => {
                                 1500,
                                 'Back End Engineer',
                                 1500,
-                                'Mathematician',
+                                'React Developer',
                                 1500,
-                                'Python Developer',
+                                'Java Developer',
                                 1500,
                             ]}
                             speed={50}
