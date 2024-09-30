@@ -7,10 +7,11 @@ import { fadeIn, textVariant } from "../utils/motion/motion.js";
 import { testimonials } from "../constants";
 
 const FeedbackCard = ({ testimonial, name, image, company, index, designation }) => (
-    <motion.div
-        variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-        className="bg-[#192333] p-10 rounded-3xl xxxxl:w-[550px] xxl:w-[480px] lg:w-[398px] xs:w-[320px] w-full"
-    >
+<motion.div
+    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    className="bg-[#192333] p-10 rounded-3xl flex-[1_1_300px]"  // Flex-basis set for a responsive layout
+>
+
         <p className='text-white font-black text-[48px]'>"</p>
 
         <div className="mt-1">
@@ -57,15 +58,16 @@ const Testimonials = () => {
                     </div>
               </motion.div>
           </div>
-          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 flex flex-wrap gap-7 bg-[#151E2C] rounded-2xl justify-between max-w-screen-xxxl xxxl:mx-auto'>
-              {testimonials.map((testimonial, index) => (
-                  <FeedbackCard
-                      key={testimonial.name}
-                      index={index}
-                      {...testimonial}
-                  />
-              ))}
-          </div>
+          <div className='sm:px-16 px-6 -mt-20 sm:pb-14 pb-10 flex flex-wrap gap-7 bg-[#151E2C] rounded-2xl justify-start items-start max-w-screen-xxxl xxxl:mx-auto'>
+    {testimonials.map((testimonial, index) => (
+        <FeedbackCard
+            key={testimonial.name}
+            index={index}
+            {...testimonial}
+        />
+    ))}
+</div>
+
       </motion.div>
     )
 }
